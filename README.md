@@ -1,39 +1,23 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="#" style="margin: 0;" alt="Logo">
 
-Welcome USER_NAME,
+## Description
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+***
 
-## Gitpod Reminders
+This is a case for a new website and design for Islington Performance Parts (IPP), a fictitous motor vehicle parts shop in the north of Stockholm, Sweden. 
+The main purpose of IPP is to provide high end alloy wheels to service the vehicle after-market modification community in Stockholm. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Currently, the shop services a small community of enthusiasts in the North of Stockholm but is planning to enlarge their sales and after-service facilities to a much larger and wider market. This will be the first time the shop will be listed via a website with the view to attracting more customers from around Sweden and neighbouring Nordic countries.
 
-`python3 -m http.server`
+The shop, located in the Vällingby area in the north of Stockholm, gets very few customers from beyond Kungsholmen (Central Stockholm). The purpose of the webpage and associated order forms, including a digital monthly catalogue, is to increase the customer-base to include a greater reach in the region. 
 
-A blue button should appear to click: *Make Public*,
+The website will be divided into four categories in a hope to encourage tech savvy motor enthusiasts:
 
-Another blue button should appear to click: *Open Browser*.
+1. Home: Introduction of IPP, opening hours and a small gallery of performance vehicles enhanced in the shop.
+2. Shop: A showcase of the eight most popular alloy wheels with option to purchase and book a fitting.
+3. Gallery: An exhibit of the latest styles and trends in the motor vehicle enthusiast's community. 
+4. Sign-up: A membership application form with the view to receive a monthly catalogue as well as prospective specials. 
+5. Pop-up Bookings: Located on every page in the footer and central on the front page, users can book a time to have their car fitted with new alloys. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!

@@ -1,0 +1,36 @@
+/*---------------------- Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Faster+One&display=swap');
+
+/*---------------------- Navigation and Navbar */
+.logo {
+    max-width: 200px;
+    margin-left: 9px;
+    margin-right: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.bg-custom { 
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: rgb(235,64,52,1); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(235,64,52,1) 0%,  rgba(230,237,28,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(235,64,52,1) 0%,  rgba(230,237,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(235,64,52,1) 0%,  rgba(230,237,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EB4020', endColorstr='#E6ED1C',GradientType=1 ); /* IE6-9 */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: "Chivo", sans-serif;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    padding: 0.5rem 1.2rem;
+    display: inline-block;
+    
+}
+
+
