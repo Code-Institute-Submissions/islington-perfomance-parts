@@ -34,7 +34,7 @@
 
 /*---------------------- Header/Navigation */
 
-.logo-size img {
+.logo img {
  padding: 5px;
  max-width: 50%;
  max-height: auto;
@@ -104,3 +104,21 @@ footer {
   padding: 60px; 0px;
 
 }
+
+
+/* hide mobile version by default */
+  .logo .mobile {
+    display: none;
+  }
+  /* when screen is less than 600px wide
+     show mobile version and hide desktop */
+  @media (max-width: 600px) {
+    .logo .mobile {
+      display: block;
+      size: 18%;
+      
+    }
+    .logo .desktop {
+      display: none;
+    }
+  }
