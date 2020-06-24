@@ -2,77 +2,91 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--Bootstrap CSS CDN-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Bootstrap CSS CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	<!--Font Awesome CDN-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-		integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+  <!--hover.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
 
-	<!--hover.css-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
+  <!--Font Awesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 
-	<!--Link to custom style sheet-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<title>Islington Performance Parts</title>
+  <!--Link to custom style sheet-->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <title>Islington Performance Parts</title>
+
 </head>
 
-<body class="d-flex flex-column">
-	<header class="sticky-top">
-		<div class="nav-container container-fluid bg-custom">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand logo" href="index.html">
-					<img src="/assets/images/ipp_logo_main.png" class="d-inline-block align-top" alt="Islington Performance Parts logo" loading="lazy">
-      </a>
-					<!--Mobile Nav-->
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-					<!--Navigation-->
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <div class="row no-gutters">
-                    <div class="col">
-						<ul id="nav" class="list-inline menucontainer">
-							<li class="col-sm-3 list-inline-item menuitem ui-menu-color-home">
-								<a class="nav-link hvr-bounce-to-bottom"
-									href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="active">Home</span><span class="sr-only">(current)</span></a>
-							</li>
-							<li class="col-sm-3 list-inline-item menuitem ui-menu-color-shop">
-								<a class="nav-link hvr-bounce-to-bottom"
-									href="shop.html"><i class="fas fa-store" aria-hidden="true"></i><span>Shop</span></a>
-							</li>
-							<li class="col-sm-3 list-inline-item menuitem ui-menu-color-gallery">
-								<a class="nav-link hvr-bounce-to-bottom"
-									href="gallery.html"><i class="far fa-images" aria-hidden="true"></i><span>Gallery</span></a>
-							</li>
-							<li class="col-sm-3 list-inline-item menuitem ui-menu-color-sign-up">
-								<a class="nav-link hvr-bounce-to-bottom" href="
-									sign-up.html"><i class="fab fa-wpforms" aria-hidden="true"></i><span>Sign-Up</span></a>
-							</li>
-						</ul>
+<body>
+  <header class="navbar sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+      <a class="navbar-brand logo" href="index.html"><img src="assets/images/ipp_logo_main.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			</nav>
-		</div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <div class="navbar nav ml-auto">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item list-inline-item ui-menu-color-home menuitem hvr-bounce-to-bottom">
+              <a class="nav-link" href="index.html">
+                <div class="icon">
+                  <i class="fa fa-home" aria-hidden="true"></i>
+                </div>
+                <div class="name">Home</div><span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class=" nav-item list-inline-item ui-menu-color-shop menuitem hvr-bounce-to-bottom">
+              <a class="nav-link" href="shop.html">
+                <div class="icon"><i class="fas fa-store" aria-hidden="true"></i></div>
+                <div class="name">Shop</div>
+              </a>
+            </li>
+            <li class="nav-item list-inline-item ui-menu-color-gallery menuitem hvr-bounce-to-bottom">
+              <a class="nav-link" href="gallery.html">
+                <div class="icon"><i class="far fa-images" aria-hidden="true"></i></div>
+                <div class="name">Gallery</div>
+              </a>
+            </li>
+            <li class="nav-item list-inline-item ui-menu-color-sign-up menuitem hvr-bounce-to-bottom">
+              <a class="nav-link" href="sign-up.html">
+                <div class="icon"><i class="fab fa-wpforms" aria-hidden="true"></i></div>
+                <div class="name">Sign-Up</div>
+              </a>
+            </li>
+          </ul>
         </div>
-		</div>
-        </div>
-	</header>
+      </div>
 
 
+    </nav>
 
+  </header>
 
+  <section>
 
-	<!--Bootstrap Scripts-->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-	</script>
+    <br>
+    <br>
+    <br>
+    <br>
+  </section>
+
+  <footer>
+
+  </footer>
+
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
 </body>
+
+</html>

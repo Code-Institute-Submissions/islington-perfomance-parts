@@ -1,97 +1,101 @@
 /*---------------------- Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Faster+One&display=swap');
 
+/*---------------------- Colours */
+.bg-custom {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+  background: rgb(235, 64, 52, 1);
+  /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(235, 64, 52, 1) 0%, rgba(230, 237, 28, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(235, 64, 52, 1) 0%, rgba(230, 237, 28, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(235, 64, 52, 1) 0%, rgba(230, 237, 28, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EB4020', endColorstr='#E6ED1C', GradientType=1);
+  /* IE6-9 */
+}
 
-/*---------------------- Color */
 .ui-menu-color-home {
-    background-color: #ec441a;
+  background-color: #ec441a;
 }
 
 .ui-menu-color-shop {
-    background-color: #009933;
+  background-color: #009933;
 }
 
 .ui-menu-color-gallery {
-    background-color: #3498db;
+  background-color: #3498db;
 }
 
 .ui-menu-color-sign-up {
-    background-color: #525252;
+  background-color: #525252;
 }
 
-
-/*---------------------- Navigation and Navbar */
+/*---------------------- Header/Navigation */
 .logo {
-    max-width: 200px;
-    margin-left: 9px;
-    margin-right: auto;
+  max-width: 18%;
+  min-width: 150px;
+  margin-left: 9px;
+  margin-right: auto;
 }
 
 .logo img {
-    width: 100%;
-}
-
-.bg-custom { 
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
-background: rgb(235,64,52,1); /* Old browsers */
-background: -moz-linear-gradient(left, rgba(235,64,52,1) 0%,  rgba(230,237,28,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(235,64,52,1) 0%,  rgba(230,237,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(235,64,52,1) 0%,  rgba(230,237,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EB4020', endColorstr='#E6ED1C',GradientType=1 ); /* IE6-9 */
-}
-
-.active {
-    text-decoration-line: underline;
-    color: yellow;
-}
-
-.menucontainer {
-    font-size: 0;
+  width: 100%;
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0;
+  margin: 0;
 }
 
 .menuitem {
-    height: 120px;
-    width: 110px;
-    text-align: center;
-    padding: 0;
-    margin-top: 15px;
+  height: 90px;
+  width: 110px;
+  text-align: center;
+  padding: 0;
 }
 
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    height: 120px;
-    font-family: "Chivo", sans-serif;
+ul li {
+  list-style: none;
 }
 
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-    text-align: center;
+ul li a {
+  text-decoration: none;
+  padding: 0 50px;
+  display: block;
 }
 
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+.name {
+  font-family: "Chivo", sans-serif;
+  color: #f5f2d0;
+  text-transform: uppercase;
 }
 
-/*---------------------- Navigation and Navbar */
+ul li a .icon {
+  padding-top: 8px;
+  color: #f5f2d0;
+}
 
+ul li a .icon .fa {
+  font-size: 28px;
+}
+
+ul li a .icon .fab {
+  font-size: 28px;
+}
+
+ul li a .icon .far {
+  font-size: 28px;
+}
+
+ul li a .icon .fas {
+  font-size: 28px;
+}
+
+/*---------------------- hvr.css */
 .hvr-bounce-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+  background: rgba(0, 0, 0, 0.2);
+  height: 90px;
 }
 
+/*---------------------- Footer */
