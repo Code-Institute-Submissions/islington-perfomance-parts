@@ -34,11 +34,18 @@
 
 /*---------------------- Header/Navigation */
 
+/*--- logo ---*/
 .logo img {
  padding: 5px;
  max-width: 50%;
  max-height: auto;
 }
+
+/* .bg-logo {
+    background-image: url("assets/images/ipp-logo-flag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 
 .list-inline-item:not(:last-child) {
@@ -98,12 +105,28 @@ ul li a .icon .fas {
 }
 
 /*---------------------- Footer */
-footer {
+/* footer {
   width: 100%;
   background-color: #222;
   padding: 60px; 0px;
 
+} */
+
+.contact {
+font-family: "Chivo", sans-serif;
+color: #fff;
 }
+
+.social {
+  font-family: "Chivo", sans-serif;
+color: #fff;
+}
+
+.hours {
+  font-family: "Chivo", sans-serif;
+color: #fff;
+}
+
 
 
 /* hide mobile version by default */
@@ -121,4 +144,4 @@ footer {
     .logo .desktop {
       display: none;
     }
-  }
+  
