@@ -36,6 +36,30 @@
   border-radius: 33%;
 }
 
+
+/*--- testing div sizes ---*/
+
+.bg-blue {
+    background-color: rgb(195, 195, 195, 1);
+}
+
+.bg-red {
+    background-color: #ec441a;
+}
+
+.bg-green {
+    background-color: cyan;
+}
+
+.bg-shop {
+    background-color: #f5f2d0;
+    padding-top: 8px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+
 /*---------------------- Header/Navigation */
 
 /*--- logo ---*/
@@ -44,6 +68,15 @@
  max-height: auto;
  border-radius: 18%;
  box-shadow: 4px 4px 4px 2px rgba(0,0,0,.5);
+}
+
+/*--- active link ---*/
+.uline:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto; 
+    width: 33%;
+    border-bottom: 3px solid yellow; 
 }
 
 .list-inline-item:not(:last-child) {
@@ -103,6 +136,28 @@
   border-radius: 33%;
 }
 
+/*---------------------- Section 1 */
+
+#t-center {
+    display: flex;
+    justify-content: center;
+}
+
+.sublogo {
+    font-family: "Faster One", sans-serif;
+    color: rgb(34, 177, 76, 1);
+    font-size: 180%;
+    letter-spacing: 4px;
+    text-shadow: 0px 3px 0px rgba(0,0,0,.5);
+}
+
+.two-cols {
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+
 /*---------------------- Footer */
 
 footer h5 {
@@ -119,6 +174,10 @@ footer p {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .details a {
     padding: 0%;
     text-decoration: none;
@@ -126,7 +185,7 @@ footer p {
 }
 
 .details a:hover {
-    color: #ec441a;
+    color: blueviolet;
 }
 
 .fa-facebook {
@@ -161,8 +220,6 @@ footer p {
   color: #ff5700;
 }
 
-
-
 .but-text {
      color: #fff;
     font-family: "Exo 2", sans-serif;
@@ -171,10 +228,6 @@ footer p {
 .no-disp {
     margin-left: 37px;      
 }
-
-
-
-
 
 /* hide mobile version by default */
   .logo .mobile {

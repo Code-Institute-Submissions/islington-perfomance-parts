@@ -21,14 +21,15 @@
 </head>
 
 <body>
-  <header>
+   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-custom">
-      <!--Divided into mobile sized and desktop sized images-->
+        <!--Divided into mobile sized and desktop sized images-->
         <div class="logo">
-            <a class="navbar-brand" href="index.html"><img  class="d-none d-lg-block" src="assets/images/ipp-logo-flag.jpg" alt="Islington Performance Parts Logo"></a>
-            <a class="navbar-brand" href="index.html"><img class="d-lg-none" src="assets/images/ipp-logo-flag-mobile.jpg" alt="Islington Performance Parts Logo"></a>
+            <a class="navbar-brand" href="index.html"><img  class="d-none d-lg-block img-fluid" src="assets/images/ipp-logo-flag.jpg" alt="Islington Performance Parts Logo"></a>
+            <a class="navbar-brand" href="index.html"><img class="d-lg-none img-fluid" src="assets/images/ipp-logo-flag-mobile.jpg" alt="Islington Performance Parts Logo"></a>
         </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -42,7 +43,7 @@
                 <div class="icon">
                   <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <div class="name">Home</div>
+                <div class="name">Home</div><span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item list-inline-item ui-menu-color-shop menuitem hvr-bounce-to-bottom">
@@ -50,7 +51,7 @@
                 <div class="icon">
                 <i class="fas fa-store" aria-hidden="true"></i>
                 </div>
-                <div class="name uline">Shop</div><span class="sr-only">(current)</span>
+                <div class="name uline">Shop</div>
               </a>
             </li>
             <li class="nav-item list-inline-item ui-menu-color-gallery menuitem hvr-bounce-to-bottom">
@@ -84,9 +85,100 @@
     <br>
   </section>
 
-  <footer>
+    <!-- Footer and code https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 bg-custom">
 
-  </footer>
+  <!-- Footer About -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mb-4 center">About Us</h5>
+        <p class="text-left">Islington Performance Parts is a family run business located here in Stockholm and operating now for 25 years.</p>
+        <p class="text-left">Get in contact to spice up your car with new look wheels. Remember that fitting is free.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Bookings -->
+        <h5 class="font-weight-bold text-uppercase mb-4 center">Book a fitting</h5>
+        <button type="button" class="btn btn-danger btn-lg but-text">Make A Booking</button>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Contact details -->
+        <h5 class="font-weight-bold text-uppercase mb-4 center">Address</h5>
+
+        <ul class="details">
+          <li>
+            <p class="text-left">
+            <i class="fas fa-location-arrow mr-3"></i> Bil Tilbehor Väg 10</p>
+          </li>
+          <li><p class="no-disp text-left">Vällingby, 123 45 SE</p>
+          </li>
+          <li>
+            <p class="text-left">
+              <a href="mailto:contact@ipp-vallingby.com" alt="Email Us"><i class="fas fa-envelope mr-3"></i> Email Us</p></a>
+          </li>
+          <li>
+            <p class="text-left">
+              <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          </li>
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-3 text-center mx-auto my-4 footer-icon">
+
+        <!-- Social buttons -->
+        <h5 class="font-weight-bold text-uppercase mb-4 center">Follow Us</h5>
+
+        <!-- Facebook -->
+        <a href="http://facebook.com" alt="Facebook" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <!-- Twitter -->
+        <a href="http://twitter.com" alt="Twitter" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <!-- YouTube -->
+        <a href="http://youtube.com" alt="YouTube" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+        <!--Reddit-->
+        <a href="http://reddit.com" alt="Reddit" target="_blank"><i class="fab fa-reddit fa-2x"></i></a>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 details">© 2020 Copyright:
+    <a href="index.html/"> Islington Performance Parts</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
   <!--Bootstrap Scripts-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
