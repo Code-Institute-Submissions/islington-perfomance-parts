@@ -36,8 +36,7 @@
 
 /*--- logo ---*/
 .logo img {
- padding: 5px;
- max-width: 50%;
+ max-width: 300px;
  max-height: auto;
 }
 
@@ -106,57 +105,6 @@ ul li a .icon .fas {
 
 /*---------------------- Footer */
 
-.contact {
-font-family: "Chivo", sans-serif;
-color: #fff;
-}
-
-.contact a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.contact a:hover {
-    color: #525252;
-   }
-
-.contact i {
-    padding-left: 8px;
-}
-
-.contact p {
-    padding-left: 11px;
-    text-align: left;
-    }
-
-.hours {
-    font-family: "Chivo", sans-serif;
-    color: #fff;
-}
-
-.hours p {
-    padding-left: 11px;
-    padding-right: 8px;
-    text-align: left;
-}
-
-.social i {
-  color: #525252;
-  
-}
-
-footer h5 {
-    color: #fff;
-    font-family: "Chivo", sans-serif;
-}
-
-.center {
-    margin: auto;
-}
-
-.social i:hover {
-    color: #ec441a;
-}
 
 
 
