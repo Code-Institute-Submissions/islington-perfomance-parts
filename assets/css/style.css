@@ -136,9 +136,9 @@
   border-radius: 33%;
 }
 
-/*---------------------- Section 1 */
+/*---------------------- Main Content */
 
-#t-center {
+#t-mid {
     display: flex;
     justify-content: center;
 }
@@ -157,6 +157,12 @@
   -moz-columns: 2;
 }
 
+/*--- Carousel ---*/
+
+.c-size img {
+    max-width: 360px;
+    height: auto;
+}
 
 /*---------------------- Footer */
 
