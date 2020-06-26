@@ -36,26 +36,14 @@
   border-radius: 33%;
 }
 
-
-/*--- testing div sizes ---*/
-
-.bg-blue {
-    background-color: rgb(195, 195, 195, 1);
-}
-
-.bg-red {
-    background-color: #ec441a;
-}
-
-.bg-green {
-    background-color: cyan;
-}
-
 .bg-shop {
     background-color: #f5f2d0;
     padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 8%;
     margin-bottom: 8%;
+    color: #36454f;
+    font-family: "Chivo", sans-serif;
 }
 
 
@@ -64,7 +52,7 @@
 
 /*--- logo ---*/
 .logo img {
- max-width: 300px;
+ max-width: 233px;
  max-height: auto;
  border-radius: 18%;
  box-shadow: 4px 4px 4px 2px rgba(0,0,0,.5);
@@ -130,6 +118,15 @@
 
 /*---------------------- hvr.css */
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*---------------------- hvr.css */
+
 .hvr-bounce-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
   height: auto;
@@ -138,19 +135,36 @@
 
 /*---------------------- Main Content */
 
+.home-p {
+    font-family: "Chivo", sans-serif;
+    color: #36454f;
+}
+
 #t-mid {
     display: flex;
     justify-content: center;
 }
 
-#u-mid {
-    display: flex;
-    justify-content: center;
+.shop-heading {
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    color: #36454f;
+    margin-top: 18%;
+    margin-bottom: -14px;
 }
+
+.shop-heading:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto; 
+    width: 94px;
+    border-bottom: 3px solid #36454f; 
+}
+
 
 .sublogo {
     font-family: "Faster One", sans-serif;
-    color: rgb(34, 177, 76, 1);
+    color: rgb(68, 219, 44, 1);
     font-size: 180%;
     letter-spacing: 4px;
     text-shadow: 0px 3px 0px rgba(0,0,0,.5);
@@ -177,16 +191,24 @@
     margin-right: 6px;
 }
 
+.extend {
+    margin-bottom: 14px;
+}
 /*--- Booking Button Home ---*/
 
-.but-mid {
-  margin: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  }
+#btn-home {
+    margin-bottom: 22px;
+}
+
+/*--- Button Universal ---*/
+
+.btn-custom {
+    color: #fff;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+}
+
+
 
 /*--- Google Maps ---*/
 
@@ -200,7 +222,19 @@
 
 .map-heading {
     text-align: center;
+    font-family: "Exo 2", sans-serif;
+    color: #36454f;
 }
+
+.map-heading:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto; 
+    width: 104px;
+    border-bottom: 3px solid #36454f; 
+}
+
+
 /*---------------------- Footer */
 
 footer h5 {
@@ -263,28 +297,9 @@ footer p {
   color: #ff5700;
 }
 
-.but-text {
-     color: #fff;
-    font-family: "Exo 2", sans-serif;
-}
-
+ 
 .no-disp {
     margin-left: 37px;      
 }
 
-/* hide mobile version by default */
-  .logo .mobile {
-    display: none;
-  }
-  /* when screen is less than 600px wide
-     show mobile version and hide desktop */
-  @media (max-width: 600px) {
-    .logo .mobile {
-      display: block;
-      size: 18%;
-      
-    }
-    .logo .desktop {
-      display: none;
-    }
-  
+
