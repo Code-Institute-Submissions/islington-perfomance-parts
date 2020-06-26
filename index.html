@@ -156,9 +156,26 @@
     </div>
     
     </div>
-    <div class="col">
-    The map goes here
-    </div>
+    <!--Google map-->
+ <h3 class="map-heading">Where to find us</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // location
+  var IPP = {lat: 59.364534, lng: 17.871268}; 
+  // The map, centered at IPP
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 16, center: IPP});
+  // The marker, positioned at IPP
+  var marker = new google.maps.Marker({position: IPP, map: map});
+}
+
+    </script>
+
+
+<!--Google Maps-->
   </div>
   
 
@@ -264,6 +281,11 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
+  <!--Google API-->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcvCbCdf8fljmjH5_kBAHTiKc48FSbuJI&callback=initMap">
+    </script>
+
 </body>
 
 </html>
