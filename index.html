@@ -168,7 +168,12 @@
 <div class="container">
 <div class="row justify-content-md-center">
 <div class="col text-center">
-<button type="button" class="btn btn-danger btn-lg btn-custom" id="btn-home">Make a Booking!</button>
+<button type="button" 
+class="btn btn-danger btn-lg btn--custom" 
+id="btn-home"
+data-toggle="modal"
+data-target="#BookingModal">
+Make a Booking!</button>
 </div>
 </div>
 </div>
@@ -198,6 +203,27 @@ function initMap() {
 
 <!--Google Maps-->
   </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="BookingModal" tabindex="-1" role="dialog" aria-labelledby="BookingModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="BookingModal">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   
 
   <!-- Footer and code https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
@@ -227,7 +253,11 @@ function initMap() {
 
         <!-- Bookings -->
         <h5 class="font-weight-bold text-uppercase mb-4 center">Book a fitting</h5>
-        <button type="button" class="btn btn-danger btn-lg btn-custom">Make a Booking!</button>
+        <button type="button" 
+        class="btn btn-danger btn-lg btn--custom" 
+        data-toggle="modal"
+        data-target="#BookingModal">
+        Make a Booking!</button>
       </div>
       <!-- Grid column -->
 
@@ -304,8 +334,8 @@ function initMap() {
   </script>
   <!--Google API-->
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcvCbCdf8fljmjH5_kBAHTiKc48FSbuJI&callback=initMap">
-    </script>
+    src="https://maps.googleapis.com/maps/api/js?key=[AIzaSyBWKHz27Q-E_mW5wHULLj6Wgap3VOjrCbs]&callback=initMap">
+  </script>
 
 </body>
 
