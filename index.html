@@ -203,7 +203,7 @@ tabindex="0">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="index-modal">Homepage title</h5>
+        <h5 class="modal-title" id="index-modal">Book a fitting with us</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -214,26 +214,26 @@ tabindex="0">
 
 <form>
   <div class="form-group">
-    <label for="Email">Email address</label>
+    <label for="Email" class="custom-label">Email address</label>
     <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter your email" required aria-label="email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="Name">Your name</label>
+    <label for="Name" class="custom-label">Your name</label>
     <input type="name" class="form-control" id="Name" placeholder="Enter your name" required aria-label="full name">
-    <small id="emailHelp" class="form-text text-muted">First Name / Last Name</small>
+    <small id="NameHelp" class="form-text text-muted">First Name / Last Name</small>
   </div>
   <div class="form-group">
-    <label for="Phone">Your name</label>
+    <label for="Phone" class="custom-label">Your mobile number</label>
     <input type="tel" class="form-control" id="Phone" placeholder="Enter your phone number" required aria-label="phone number">
     </div>
   <div class="row">  
 <div class="col-lg-6 form-group">
-<label for="date">Date</label>
+<label for="date" class="custom-label">Date</label>
 <input type="date" class="form-control" id="date" name="date" placeholder="MM/DD/YY" required aria-label="date">
 </div>
 <div class="col-lg-6 form-group">
-<label for="time">Time:</label>
+<label for="time" class="custom-label">Time:</label>
 <input class="form-control"
  type="time"
  name="time"
@@ -249,7 +249,7 @@ tabindex="0">
 
 <!-- Wheel Selection -->
 <div class="row">
-<div class="input-group col-md-6 dd-custom dd-custom-wheel">
+<div class="input-group col-sm-6 dd-custom dd-custom-wheel">
   <div class="input-group-prepend dd-custom-label">
     <label class="input-group-text" for="inputGroupSelect01">Wheel Type</label>
   </div>
@@ -266,10 +266,10 @@ tabindex="0">
     <option value="unsure">Unsure</option>
   </select>
 </div>
-</div>
 
-<div class="row">
-<div class="input-group col-md-6 dd-custom dd-custom-size">
+
+
+<div class="input-group col-sm-6 dd-custom dd-custom-size">
   <div class="input-group-prepend dd-custom-label">
     <label class="input-group-text" for="inputGroupSelect02">Size</label>
   </div>
@@ -288,18 +288,18 @@ tabindex="0">
 </div>
 
 <!-- Wheel and size selection end -->
-
-<button type="submit" class="btn btn-primary">Submit</button>
+<div class="row justify-content-md-center">
+<div class="modal-footer">
+        <button type="submit" class="btn btn-success btn--custom btn--submit">Submit</button>
+        
+      </div>
+      </div>
 </form>
 
         <!-- End form for Modal-->
-        
-        </div>
+
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -401,29 +401,112 @@ tabindex="0">
   </div>
   <!-- Copyright -->
 
-<!-- Modal Footer -->
-
-<div class="modal fade" id="f-modal" tabindex="-1" role="dialog" aria-labelledby="FooterModal" aria-hidden="true">
+ <!-- Modal -->
+<div class="modal fade" id="f-modal" tabindex="-1" role="dialog" aria-labelledby="BookingModal" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="footer-modal">Footer Modal</h5>
+        <h5 class="modal-title" id="footer-modal">Book a fitting with us</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+
+        <!-- Form for Modal -->
+
+<form>
+  <div class="form-group">
+    <label for="Email" class="custom-label">Email address</label>
+    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter your email" required aria-label="email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="Name" class="custom-label">Your name</label>
+    <input type="name" class="form-control" id="Name" placeholder="Enter your name" required aria-label="full name">
+    <small id="NameHelp" class="form-text text-muted">First Name / Last Name</small>
+  </div>
+  <div class="form-group">
+    <label for="Phone" class="custom-label">Your mobile number</label>
+    <input type="tel" class="form-control" id="Phone" placeholder="Enter your phone number" required aria-label="phone number">
+    </div>
+  <div class="row">  
+<div class="col-lg-6 form-group">
+<label for="date" class="custom-label">Date</label>
+<input type="date" class="form-control" id="date" name="date" placeholder="MM/DD/YY" required aria-label="date">
+</div>
+<div class="col-lg-6 form-group">
+<label for="time" class="custom-label">Time:</label>
+<input class="form-control"
+ type="time"
+ name="time"
+ min="10:00"
+ max="18:00"
+ value="10:00"
+ id="time"
+ required
+ aria-label="time"
+ />
+</div>
+</div>
+
+<!-- Wheel Selection -->
+<div class="row">
+<div class="input-group col-sm-6 dd-custom dd-custom-wheel">
+  <div class="input-group-prepend dd-custom-label">
+    <label class="input-group-text" for="inputGroupSelect03">Wheel Type</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect04" aria-label="choose wheel">
+    <option selected>Choose...</option>
+    <option value="wheel1">Excalibur</option>
+    <option value="wheel2">Flamer</option>
+    <option value="wheel3">Kraken</option>
+    <option value="wheel4">Mogul</option>
+    <option value="wheel5">Piercer</option>
+    <option value="wheel6">Scotia</option>
+    <option value="wheel7">Senator</option>
+    <option value="wheel8">Tyro</option>
+    <option value="unsure">Unsure</option>
+  </select>
+</div>
+
+
+
+<div class="input-group col-sm-6 dd-custom dd-custom-size">
+  <div class="input-group-prepend dd-custom-label">
+    <label class="input-group-text" for="inputGroupSelect05">Size</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect06" aria-label="choose wheel">
+    <option selected>Choose...</option>
+    <option value="wheel1">38 cm (15 in)</option>
+    <option value="wheel2">41 cm (16 in)</option>
+    <option value="wheel3">43 cm (17 in)</option>
+    <option value="wheel4">46 cm (18 in)</option>
+    <option value="wheel5">48 cm (19 in)</option>
+    <option value="wheel6">51 cm (20 in)</option>
+    <option value="wheel7">Larger than 51 cm (20 in)</option>
+    <option value="unsure">Unsure</option>
+  </select>
+</div>
+</div>
+
+<!-- Wheel and size selection end -->
+<div class="row justify-content-md-center">
+<div class="modal-footer">
+        <button type="submit" class="btn btn-success btn--custom btn--submit">Submit</button>
+        
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
+</form>
+
+        <!-- End form for Modal-->
+
+      </div>
+      
     </div>
   </div>
 </div>
 
-<!-- Modal Footer -->
 </footer>
 <!-- Footer -->
 
