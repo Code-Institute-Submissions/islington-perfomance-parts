@@ -258,6 +258,10 @@
     color: #36454f;
 }
 
+.dd-custom {
+    margin-bottom: 15px;
+}
+
 .btn--submit {
     text-align: center;
 }
