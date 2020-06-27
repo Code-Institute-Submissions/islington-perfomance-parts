@@ -149,8 +149,8 @@
     text-align: center;
     font-family: "Exo 2", sans-serif;
     color: #36454f;
-    margin-top: 10%;
-    margin-bottom: -14px;
+    margin-top: 6%;
+    margin-bottom: -18px;
 }
 
 .shop-heading:after {
@@ -158,8 +158,9 @@
     display: block;
     margin: 0 auto; 
     width: 94px;
-    border-bottom: 3px solid #36454f; 
-}
+    border-bottom: 3px solid #36454f;
+    padding-bottom: 2px;
+    }
 
 
 .sublogo {
@@ -209,13 +210,19 @@
     text-transform: uppercase;
     width: 180px;
     border-radius: 37px;
-}
+    outline: 0 !important;
+    box-shadow: none !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+  }
+
 
 
 
 /*--- Google Maps ---*/
 
-#map {
+.map {
         height: 200px;  
         width: 100%;
         margin-bottom: 14px;
@@ -223,13 +230,13 @@
         border: 2px solid rgba(0, 0, 0, 0.2);
        }
 
-.map-heading {
+.map-header-custom {
     text-align: center;
     font-family: "Exo 2", sans-serif;
     color: #36454f;
 }
 
-.map-heading:after {
+.map-header-custom:after {
     content: ""; 
     display: block;
     margin: 0 auto; 
@@ -237,8 +244,19 @@
     border-bottom: 3px solid #36454f; 
 }
 
+/*---------------------- Modals */
 
-/*---------------------- Footer */
+.modal-title {
+    font-family: "Faster One", sans-serif;
+    font-size: 21px;
+    color: #36454f;
+}
+
+#icon-excalibur {
+    background-image: url('assets/images/icon-excalibur.jpg');
+}
+
+ /*---------------------- Footer */
 
 footer h5 {
     color: #fff;

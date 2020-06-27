@@ -172,7 +172,7 @@
 class="btn btn-danger btn-lg btn--custom" 
 id="btn-home"
 data-toggle="modal"
-data-target="#BookingModal">
+data-target="#i-modal">
 Make a Booking!</button>
 </div>
 </div>
@@ -182,40 +182,119 @@ Make a Booking!</button>
     </div>
     
     </div>
+    
     <!--Google map source code: google.com-->
- <h3 class="map-heading">Where to find us</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-    <script>
-// Initialize and add the map
-function initMap() {
-  // location
-  var IPP = {lat: 59.364534, lng: 17.871268}; 
-  // The map, centered at IPP
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 16, center: IPP});
-  // The marker, positioned at IPP
-  var marker = new google.maps.Marker({position: IPP, map: map});
-}
 
-    </script>
-
+<div class="col">
+<h3 class="map-header-custom">Where to find us</h3>
+<iframe class="map"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016.4874147193686!2d17.86565277212473!3d59.36675899676001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDIyJzAwLjMiTiAxN8KwNTEnNTkuNyJF!5e0!3m2!1sen!2sse!4v1593247298062!5m2!1sen!2sse" 
+allowfullscreen="" 
+aria-hidden="false" 
+tabindex="0">
+</iframe>
+</div>
 
 <!--Google Maps-->
   </div>
 
   <!-- Modal -->
-<div class="modal fade" id="BookingModal" tabindex="-1" role="dialog" aria-labelledby="BookingModal" aria-hidden="true">
+<div class="modal fade" id="i-modal" tabindex="-1" role="dialog" aria-labelledby="BookingModal" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="BookingModal">Modal title</h5>
+        <h5 class="modal-title" id="index-modal">Homepage title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+
+        <!-- Form for Modal -->
+
+<form>
+  <div class="form-group">
+    <label for="Email">Email address</label>
+    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter your email" required aria-label="email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="Name">Your name</label>
+    <input type="name" class="form-control" id="Name" placeholder="Enter your name" required aria-label="full name">
+    <small id="emailHelp" class="form-text text-muted">First Name / Last Name</small>
+  </div>
+  <div class="form-group">
+    <label for="Phone">Your name</label>
+    <input type="tel" class="form-control" id="Phone" placeholder="Enter your phone number" required aria-label="phone number">
+    </div>
+  <div class="row">  
+<div class="col-lg-6 form-group">
+<label for="date">Date</label>
+<input type="date" class="form-control" id="date" name="date" placeholder="MM/DD/YY" required aria-label="date">
+</div>
+<div class="col-lg-6 form-group">
+<label for="time">Time:</label>
+<input class="form-control"
+ type="time"
+ name="time"
+ min="10:00"
+ max="18:00"
+ value="10:00"
+ id="time"
+ required
+ aria-label="time"
+ />
+</div>
+</div>
+
+<!-- Wheel Selection -->
+<div class="row">
+<div class="input-group col-md-6 dd-custom dd-custom-wheel">
+  <div class="input-group-prepend dd-custom-label">
+    <label class="input-group-text" for="inputGroupSelect01">Wheel Type</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01" aria-label="choose wheel">
+    <option selected>Choose...</option>
+    <option value="wheel1">Excalibur</option>
+    <option value="wheel2">Flamer</option>
+    <option value="wheel3">Kraken</option>
+    <option value="wheel4">Mogul</option>
+    <option value="wheel5">Piercer</option>
+    <option value="wheel6">Scotia</option>
+    <option value="wheel7">Senator</option>
+    <option value="wheel8">Tyro</option>
+    <option value="unsure">Unsure</option>
+  </select>
+</div>
+</div>
+
+<div class="row">
+<div class="input-group col-md-6 dd-custom dd-custom-size">
+  <div class="input-group-prepend dd-custom-label">
+    <label class="input-group-text" for="inputGroupSelect02">Size</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect02" aria-label="choose wheel">
+    <option selected>Choose...</option>
+    <option value="wheel1">38 cm (15 in)</option>
+    <option value="wheel2">41 cm (16 in)</option>
+    <option value="wheel3">43 cm (17 in)</option>
+    <option value="wheel4">46 cm (18 in)</option>
+    <option value="wheel5">48 cm (19 in)</option>
+    <option value="wheel6">51 cm (20 in)</option>
+    <option value="wheel7">Larger than 51 cm (20 in)</option>
+    <option value="unsure">Unsure</option>
+  </select>
+</div>
+</div>
+
+<!-- Wheel and size selection end -->
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+        <!-- End form for Modal-->
+        
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -256,7 +335,7 @@ function initMap() {
         <button type="button" 
         class="btn btn-danger btn-lg btn--custom" 
         data-toggle="modal"
-        data-target="#BookingModal">
+        data-target="#f-modal">
         Make a Booking!</button>
       </div>
       <!-- Grid column -->
@@ -322,6 +401,29 @@ function initMap() {
   </div>
   <!-- Copyright -->
 
+<!-- Modal Footer -->
+
+<div class="modal fade" id="f-modal" tabindex="-1" role="dialog" aria-labelledby="FooterModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="footer-modal">Footer Modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Footer -->
 </footer>
 <!-- Footer -->
 
@@ -332,11 +434,7 @@ function initMap() {
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
-  <!--Google API-->
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=[AIzaSyBWKHz27Q-E_mW5wHULLj6Wgap3VOjrCbs]&callback=initMap">
-  </script>
 
-</body>
+  </body>
 
 </html>
