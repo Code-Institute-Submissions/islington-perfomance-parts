@@ -236,6 +236,18 @@
     -webkit-box-shadow: none !important;
   }
 
+  .btn--custom2 {
+    color: #fff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: 0 !important;
+    box-shadow: none !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+  }
+
 /*--- Google Maps ---*/
 
 .map {
@@ -269,7 +281,8 @@
 }
 
 .custom-label,
-.dd-custom {
+.dd-custom,
+.wheel-text {
     font-family: "Chivo", sans-serif;
     color: #36454f;
 }
@@ -300,12 +313,26 @@
 
 .wheel-text {
     text-align: left;
+    
 }
 
+/* shop images background */
 .bg-grey {
     background-color: rgba(211, 211, 211, 0.2);
     border-right: solid 14px #fff;
 }
+
+ .credit_cards img {
+ width: 48px;
+ height: auto;
+}
+
+.payment-heading h1 {
+    font-family: "Exo 2", sans-serif;
+    color: #36454f;
+
+}
+
 
  /*---------------------- Footer */
 
