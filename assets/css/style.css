@@ -286,10 +286,25 @@
 
 .enlarge img {
     transition: transform 0.3s;
+    border: none;
 }
 
 .enlarge img:hover {
     transform: scale(1.1);
+}
+
+.img--custom-wheel {
+    height: 200px;
+    width: auto;
+}
+
+.wheel-text {
+    text-align: left;
+}
+
+.bg-grey {
+    background-color: rgba(211, 211, 211, 0.2);
+    border-right: solid 14px #fff;
 }
 
  /*---------------------- Footer */
