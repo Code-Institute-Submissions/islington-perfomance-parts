@@ -19,5 +19,8 @@ The website will be divided into four categories in a hope to encourage tech sav
 4. Sign-up: A membership application form with the view to receive a monthly catalogue as well as prospective specials. 
 5. Pop-up Bookings: Located on every page in the footer and central on the front page, users can book a time to have their car fitted with new alloys. 
 
+Users on Firefox may not experience the date and time picker on the form as expected. Though the inner workings are fine, the time and date picker icons do not display. 
+
+Due to limited use of JavaScript there is no option to remove Sunday from the date picker despite the shop being closed on Sunday. 
 
 

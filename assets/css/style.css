@@ -46,6 +46,25 @@
     font-family: "Chivo", sans-serif;
 }
 
+/* gird testing colours */
+.bg-1 {
+    background-color: red;
+}
+
+.bg-2 {
+    background-color: green;
+}
+
+.bg-3 {
+    background-color: blue;
+}
+
+.bg-4 {
+    background-color: yellow;
+}
+
+/* end testing colours */
+
 
 
 /*---------------------- Header/Navigation */
@@ -217,9 +236,6 @@
     -webkit-box-shadow: none !important;
   }
 
-
-
-
 /*--- Google Maps ---*/
 
 .map {
@@ -264,6 +280,16 @@
 
 .btn--submit {
     text-align: center;
+}
+
+/*----------------------- Shop */
+
+.enlarge img {
+    transition: transform 0.3s;
+}
+
+.enlarge img:hover {
+    transform: scale(1.1);
 }
 
  /*---------------------- Footer */
