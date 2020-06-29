@@ -295,6 +295,52 @@
     text-align: center;
 }
 
+.img--custom-wheel2 {
+    width: 225px;
+    height: auto;    
+}
+
+.modal--footer-custom {
+    width: auto;
+    height: 64px;
+    margin-top: 11px;
+    
+}
+
+/*----------------------- progress bars */
+
+.bg-al {
+    background-color: #ADB2BD;
+}
+
+.bg-c {
+    background-color: #36454f;
+}
+
+.bg-mg {
+    background-color: #3a68bf;
+}
+
+.bg-ni {
+    background-color: #ef9727;
+}
+
+.bg-steel {
+    background-color: #02b152;
+    }
+
+.bg-null {
+    background-color: rgb(233,236,239);
+}
+
+.null-text,
+.text-info {
+    font-family: "Chivo", sans-serif;
+    color: #36454f;
+      
+}
+
+
 /*----------------------- Shop */
 
 .enlarge img {
