@@ -264,19 +264,27 @@
 
                 <div class="form-group owner">
                   <label for="owner-exc" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-exc">
+                  <input type="text" class="form-control" id="owner-exc" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
                   <label for="cvv-exc">CVV</label>
-                  <input type="text" class="form-control" id="cvv-exc">
-                </div>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-exc" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-exc">
                   <label for="cardnumber-exc" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-exc">
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-exc" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-exc">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -290,7 +298,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>
@@ -400,21 +408,29 @@
               </div>
               <div class="payment">
 
-                <div class="form-group owner">
+                 <div class="form-group owner">
                   <label for="owner-fla" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-fla">
+                  <input type="text" class="form-control" id="owner-fla" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
-                  <label for="cvvfla">CVV</label>
-                  <input type="text" class="form-control" id="cvvfla">
-                </div>
+                  <label for="cvv-fla">CVV</label>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-fla" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-fla">
-                  <label for="cardnumber-fla" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-fla">
+                  <label for="cardnumber-exc" class="custom-label">Card Number</label>
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-fla" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-fla">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -428,7 +444,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>
@@ -538,21 +554,29 @@
               </div>
               <div class="payment">
 
-                <div class="form-group owner">
-                  <label for="owner-kra" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-kra">
+                 <div class="form-group owner">
+                  <label for="owner-exc" class="custom-label">Owner</label>
+                  <input type="text" class="form-control" id="owner-exc" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
                   <label for="cvv-kra">CVV</label>
-                  <input type="text" class="form-control" id="cvv-kra">
-                </div>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-kra" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-kra">
                   <label for="cardnumber-kra" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-kra">
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-kra" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-kra">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -566,7 +590,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>
@@ -675,21 +699,29 @@
               </div>
               <div class="payment">
 
-                <div class="form-group owner">
+                 <div class="form-group owner">
                   <label for="owner-mog" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-mog">
+                  <input type="text" class="form-control" id="owner-mog" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
                   <label for="cvv-mog">CVV</label>
-                  <input type="text" class="form-control" id="cvv-mog">
-                </div>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-mog" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-mog">
-                  <label for="cardnumber-mog" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-mog">
+                  <label for="cardnumber-exc" class="custom-label">Card Number</label>
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-mog" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-mog">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -703,7 +735,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>
@@ -812,21 +844,29 @@
               </div>
               <div class="payment">
 
-                <div class="form-group owner">
+                 <div class="form-group owner">
                   <label for="owner-pie" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-pie">
+                  <input type="text" class="form-control" id="owner-pie" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
                   <label for="cvv-pie">CVV</label>
-                  <input type="text" class="form-control" id="cvv-pie">
-                </div>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-pie" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-pie">
-                  <label for="cardnumber-pie" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-pie">
+                  <label for="cardnumber-exc" class="custom-label">Card Number</label>
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-pie" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-pie">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -840,7 +880,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>
@@ -949,21 +989,29 @@
               </div>
               <div class="payment">
 
-                <div class="form-group owner">
+                 <div class="form-group owner">
                   <label for="owner-sco" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-sco">
+                  <input type="text" class="form-control" id="owner-sco" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
                   <label for="cvv-sco">CVV</label>
-                  <input type="text" class="form-control" id="cvv-sco">
-                </div>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-sco" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-sco">
                   <label for="cardnumber-sco" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-sco">
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-sco" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-sco">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -977,7 +1025,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>
@@ -1086,21 +1134,29 @@
               </div>
               <div class="payment">
 
-                <div class="form-group owner">
+                 <div class="form-group owner">
                   <label for="owner-sen" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-sen">
+                  <input type="text" class="form-control" id="owner-sen" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
                   <label for="cvv-sen">CVV</label>
-                  <input type="text" class="form-control" id="cvv-sen">
-                </div>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-sen" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-sen">
-                  <label for="cardnumber-sen" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-sen">
+                  <label for="cardnumber-exc" class="custom-label">Card Number</label>
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-sen" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-sen">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -1114,7 +1170,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>
@@ -1223,21 +1279,29 @@
               </div>
               <div class="payment">
 
-                <div class="form-group owner">
-                  <label for="owner-tyr" class="custom-label">Owner</label>
-                  <input type="text" class="form-control" id="owner-tyr">
+                 <div class="form-group owner">
+                  <label for="owner-exc" class="custom-label">Owner</label>
+                  <input type="text" class="form-control" id="owner-exc" placeholder="Name of card holder" required>
                 </div>
+                
                 <div class="form-group CVV">
                   <label for="cvv-tyr">CVV</label>
-                  <input type="text" class="form-control" id="cvv-tyr">
-                </div>
+                  <a type="icon" 
+                  data-toggle="popover" 
+                  title="A three digit number located on the back of your card in the signature panel" 
+                  data-content="A three digit number located on the back of your card in the signature panel">
+                  <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="number" min="3" max="3" class="form-control" id="cvv-tyr" placeholder="CVV" required>
+                  </div>
+                
                 <div class="form-group" id="card-number-field-tyr">
-                  <label for="cardnumber-tyr" class="custom-label">Card Number</label>
-                  <input type="text" class="form-control" id="cardnumber-tyr">
+                  <label for="cardnumber-exc" class="custom-label">Card Number</label>
+                  <input type="number" min="16" max="16" class="form-control" id="cardnumber-tyr" placeholder="Input credit card number" required>
                 </div>
                 <div class="form-group" id="expiration-date-tyr">
                   <label class="custom-label">Expiration Date</label>
-                  <select>
+                  <select required>
                     <option value="01">January</option>
                     <option value="02">February </option>
                     <option value="03">March</option>
@@ -1251,7 +1315,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                   </select>
-                  <select>
+                  <select required>
                     <option value="16"> 2020</option>
                     <option value="17"> 2021</option>
                     <option value="18"> 2022</option>

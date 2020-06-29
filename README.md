@@ -23,4 +23,6 @@ Users on Firefox may not experience the date and time picker on the form as expe
 
 Due to limited use of JavaScript there is no option to remove Sunday from the date picker despite the shop being closed on Sunday. 
 
+The "buy now" form was partially templated from https://tutorialzine.com/2016/11/simple-credit-card-validation-form
+
 

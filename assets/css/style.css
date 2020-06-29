@@ -340,7 +340,10 @@
       
 }
 
-
+.progress {
+    margin-left: 40px;
+    margin-right: auto;
+}
 /*----------------------- Shop */
 
 .enlarge img {
@@ -358,8 +361,26 @@
 }
 
 .wheel-text {
-    text-align: left;
-    
+    text-align: left;    
+}
+
+.CVV {
+    width: 33%;
+}
+
+.questionmark {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
 }
 
 /* shop images background */
