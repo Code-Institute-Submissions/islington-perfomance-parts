@@ -423,8 +423,11 @@ input[type=number] {
 
 .bg-border {
     background-color: rgba(211, 211, 211, 0.7);
-    border: 14px solid red;
-    
+    border: 14px solid red;    
+}
+
+.extra-pad {
+    padding-bottom: 44px;
 }
 
  /*---------------------- Footer */
