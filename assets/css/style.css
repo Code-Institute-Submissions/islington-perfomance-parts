@@ -344,6 +344,8 @@
     margin-left: 40px;
     margin-right: auto;
 }
+
+
 /*----------------------- Shop */
 
 .enlarge img {
@@ -387,6 +389,7 @@ input[type=number] {
 .bg-grey {
     background-color: rgba(211, 211, 211, 0.2);
     border-right: solid 14px #fff;
+    padding-bottom: 12px;
 }
 
  .credit_cards img {
@@ -400,6 +403,29 @@ input[type=number] {
 
 }
 
+/*----------------------- Gallery */
+
+.chevron {
+    font-size: 48px;
+    color: purple;
+    background-color: white;
+}
+
+.cheveron-left {
+    padding-right: 24px;
+    background-color: white;    
+}
+
+.chevron-right {
+    padding-left: 24px;
+    background-color: white;
+}
+
+.bg-border {
+    background-color: rgba(211, 211, 211, 0.7);
+    border: 14px solid red;
+    
+}
 
  /*---------------------- Footer */
 
