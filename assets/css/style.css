@@ -1,5 +1,5 @@
 /*---------------------- Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Faster+One&display=swap&family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Faster+One&display=swap&family=Exo+2&display=swap&family=Permanent+Marker&display=swap');
 
 /*---------------------- Colours */
 .bg-custom {
@@ -409,25 +409,30 @@ input[type=number] {
     font-size: 48px;
     color: purple;
     background-color: white;
-}
-
-.cheveron-left {
-    padding-right: 24px;
-    background-color: white;    
-}
-
-.chevron-right {
-    padding-left: 24px;
-    background-color: white;
-}
-
-.bg-border {
-    background-color: rgba(211, 211, 211, 0.7);
-    border: 14px solid red;    
+    border-radius: 50%;
 }
 
 .extra-pad {
     padding-bottom: 44px;
+}
+
+/*----------------------- Sign-up */
+
+.standout {
+    color: red;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.form-bg {
+    background-color: rgba(211, 211, 211, 0.2);
+    margin-bottom: 1rem;
 }
 
  /*---------------------- Footer */
