@@ -250,6 +250,20 @@
     -webkit-box-shadow: none !important;
   }
 
+  .btn--custom3 {
+    color: #fff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100px;
+    border-radius: 21px;
+    outline: 0 !important;
+    box-shadow: none !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+  }
+
 /*--- Google Maps ---*/
 
 .map {
@@ -403,42 +417,6 @@ input[type=number] {
     font-family: "Exo 2", sans-serif;
     color: #36454f;
 
-}
-
-
-.sale {
-	position: relative;
-	display: inline-block;
-	background: orange;
-	color: white;
-	height: 2.5rem;
-	width: 2.5rem;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 2.5rem;
-	margin: 45vh 45vw;
-	transform: rotate(-20deg);
-	animation: beat 1s ease infinite alternate;
-	&:before,
-	&:after {
-		content:"";
-		position: absolute;
-		background: inherit;
-		height: inherit;
-		width: inherit;
-		top: 0;
-		left: 0;
-		z-index: -1;
-		transform: rotate(30deg);
-	}
-	&:after {
-		transform: rotate(60deg);
-	}
-}
-
-@keyframes beat {
-	from {	transform: rotate(-20deg) scale(1); }
-	to {	transform: rotate(-20deg) scale(1.1); }
 }
 
 
