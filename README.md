@@ -105,6 +105,7 @@ The HTML was validated on [W3C Validator](https://validator.w3.org/) and CSS on 
 - The map was originally used using an API from Google Maps. However a cost was associated with this technique, instead the map was embedded directly from Google Maps itself. No API or Javascript was required this way and the site loaded considerably faste.
 - Users on Firefox may not experience the date and time picker on the form as expected. The icon does not appear on Firefox but does on Chrome. The overall experience is not changed and users can still fill the form as expected. 
 - The shop is not open on Sunday, but the "Book a fitting" button allows users to pick Sundays on the date picker. Because of the accessibilityof the built in datepicker, this was not changed. A Javascript will be incorperated in a later upload to correct for this. 
+- The mobile carousel in the gallery adds extra padding on the right on load in the inspect module of Chrome. The cause of issue still unknown. The padding disappears after one picture movement and the issue can not be recreated on a mobile device. 
 
 ### SCALABILITY
 
