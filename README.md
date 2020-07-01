@@ -1,4 +1,4 @@
-<img src="/assets/images/ipp_logo_main.png" width="25%" style="margin: 0;" alt="Logo">
+<img src="/assets/images/logo-flags.png" width="25%" style="margin: 0;" alt="Logo">
 
 ## Description
 
