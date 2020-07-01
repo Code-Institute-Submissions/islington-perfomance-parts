@@ -62,17 +62,86 @@ New Customers:
 
 These goals are accomplished by various methods:
 
-- Opening hours is clearly located on the home page
-- A map for location is clearly located on the home page
+- Opening hours is clearly located on the [home page](https://pauld0051.github.io/islington-perfomance-parts/index.html)
+- A map for location is clearly located on the [home page](https://pauld0051.github.io/islington-perfomance-parts/index.html)
 - Buttons for "Book a fitting" are located in the footer of each page
-- 
+- The [shop page](https://pauld0051.github.io/islington-perfomance-parts/shop.html) has profile information about each wheel
+- A "specials" tag is located on the top of the home page
+- Specials are noted on the shop page
+- A [gallery page](https://pauld0051.github.io/islington-perfomance-parts/gallery.html) showcases the latest trends and styles of vehicles fitted with new wheels by IPP
+- The [sign-up page](https://pauld0051.github.io/islington-perfomance-parts/sign-up.html) gives users a reason to return to the shop time and again
 
 
 
-Users on Firefox may not experience the date and time picker on the form as expected. Though the inner workings are fine, the time and date picker icons do not display. 
+### Responsive design
 
-Due to limited use of JavaScript there is no option to remove Sunday from the date picker despite the shop being closed on Sunday. 
+Customers who visit the page can do so on any device, desktop, tablet, mobile etc.
 
-The "buy now" form was partially templated from https://tutorialzine.com/2016/11/simple-credit-card-validation-form
+![alt text](https://github.com/pauld0051/islington-perfomance-parts/raw/master/assets/images/ami-responsive.jpg "islington Perfomance Parts responsive web designs")
+
+The site was built responsive, and users will see the site cut roughly into thirds on each page for ease of access to information and content. 
+
+***
+
+## FEATURES
+
+The site uses various features many of which are native to bootstrap:
+
+-   Image carousels to give users a look into the type of work IPP does on motor-vehicles.
+-   Footers and headers are consistent across every page. Users are not surpried with unique content displays on any page.
+-   Modal windows on the [shop](https://pauld0051.github.io/islington-perfomance-parts/shop.html) page to display information about products.
+-   Progress bars in the modal windows to display the metal-alloy contents of each wheel.
+-   On mobile devices the [gallery](https://pauld0051.github.io/islington-perfomance-parts/gallery.html) page changes to a single picture carousel, displaying the content in a more user-friendly fashion. Users can swipe left and right to navigate the information.
+
+## TESTING
+
+The site was tested on various platforms to ensure proper display across different screen sizes.
+
+The HTML was validated on [W3C Validator](https://validator.w3.org/) and CSS on [W3C Validator](https://jigsaw.w3.org/css-validator/)
 
 
+### Issues and Bugs
+
+- The map was originally used using an API from Google Maps. However a cost was associated with this technique, instead the map was embedded directly from Google Maps itself. No API or Javascript was required this way and the site loaded considerably faste.
+- Users on Firefox may not experience the date and time picker on the form as expected. The icon does not appear on Firefox but does on Chrome. The overall experience is not changed and users can still fill the form as expected. 
+- The shop is not open on Sunday, but the "Book a fitting" button allows users to pick Sundays on the date picker. Because of the accessibilityof the built in datepicker, this was not changed. A Javascript will be incorperated in a later upload to correct for this. 
+
+### SCALABILITY
+
+For the most, the shop itself can easily increase the number of wheels that are available and a carousel could be introduced for this. When the shop expands a menu on the left hand side of the shop will allow for other product types (eg, tyres, hoses, clamps etc).
+It is also advised that the site uses analytic monitoring to help increase customer base. 
+ 
+
+## TECHNOLOGIES
+
+### Languages and Frameworks
+
+-   HTML
+-   CSS
+-   Bootstrap
+
+### Tools Used
+
+-   Balsamiq: Used to create wireframes
+-   Gitpod: IDE used for creating and editing code
+-   [Font Awesome](https://fontawesome.com): used for all icons throughout the site
+-   [Google Maps](https://www.google.com/maps/): used for custom map on homepage
+-   [Google Fonts](https://fonts.google.com/): Faster One, Chivo, Exo 2 and Permanent Marker
+-   Gimp 2.10.14: For creation and editing of the logo
+-   Windows Pain 3d: To resize images appropriately
+-   [W3C Validator](https://validator.w3.org/) used to validate HTML code
+-   [W3C Validator CSS](https://jigsaw.w3.org/css-validator/validator)
+-   The "buy now" form was partially templated [from](https://tutorialzine.com/2016/11/simple-credit-card-validation-form) (multiple modifications were used)
+-   Colour gradients were coded [here](https://www.colorzilla.com/gradient-editor/)
+
+## MEDIA
+
+-   Photos for the [home page](https://pauld0051.github.io/islington-perfomance-parts/index.html) were sourced from [Pixabay](https://pixabay.com/)
+-   Product images were sourced from [Image Wheels UK](https://www.imagewheels.co.uk/dbw-alloy-wheel/)
+-   Gallery carousel images were sourced from [TSW After-Market Wheels](https://www.tsw.com/aftermarket-wheels.php)
+
+## ACKNOWLEDGMENTS
+
+-   
+-   
+-   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) and [Anthony O' Brien](https://github.com/auxfuse) for their invaluable help and feedback and to the Code Institute slack community for their constant support.
