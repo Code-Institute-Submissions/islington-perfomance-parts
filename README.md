@@ -131,6 +131,9 @@ It is also advised that the site uses analytic monitoring to help increase custo
 -   HTML
 -   CSS
 -   Bootstrap
+-   JQuery
+-   Hover.css
+-   Fontawesome
 
 ### Tools Used
 
@@ -140,7 +143,7 @@ It is also advised that the site uses analytic monitoring to help increase custo
 -   [Google Maps](https://www.google.com/maps/): used for custom map on homepage
 -   [Google Fonts](https://fonts.google.com/): Faster One, Chivo, Exo 2 and Permanent Marker
 -   Gimp 2.10.14: For creation and editing of the logo
--   Windows Pain 3d: To resize images appropriately
+-   Windows Paint 3d: To resize images appropriately
 -   [W3C Validator](https://validator.w3.org/) used to validate HTML code
 -   [W3C Validator CSS](https://jigsaw.w3.org/css-validator/validator)
 -   The "buy now" form was partially templated [from](https://tutorialzine.com/2016/11/simple-credit-card-validation-form) (multiple modifications were used)
