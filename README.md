@@ -93,11 +93,22 @@ The site uses various features many of which are native to bootstrap:
 -   Progress bars in the modal windows to display the metal-alloy contents of each wheel.
 -   On mobile devices the [gallery](https://pauld0051.github.io/islington-perfomance-parts/gallery.html) page changes to a single picture carousel, displaying the content in a more user-friendly fashion. Users can swipe left and right to navigate the information.
 
+### Features still to implement
+
+- JavaScript for form filling rather than eight separate modals in from the shop page. 
+- Backend and Database technologies for all forms and purchasing (hence, prices were not included in this version).
+
 ## TESTING
 
 The site was tested on various platforms to ensure proper display across different screen sizes.
 
-The HTML was validated on [W3C Validator](https://validator.w3.org/) and CSS on [W3C Validator](https://jigsaw.w3.org/css-validator/)
+The HTML was validated on [W3C Validator](https://validator.w3.org/) and CSS on [W3C Validator](https://jigsaw.w3.org/css-validator/).
+
+Form testing was carried out on all forms, including Book a Fitting forms (every page in footer and home page under opening hours) and "Buy Now" forms on the shop page with the eight wheels currently listed for sale. 
+
+The only known issues are with the "Buy Now" forms as no backend is currently available. The CCV help would have also been a "pop-over" however, there is a Javascript requirement preventing this from working as anticipated. 
+
+
 
 
 ### Issues and Bugs
@@ -105,7 +116,7 @@ The HTML was validated on [W3C Validator](https://validator.w3.org/) and CSS on 
 - The map was originally used using an API from Google Maps. However a cost was associated with this technique, instead the map was embedded directly from Google Maps itself. No API or Javascript was required this way and the site loaded considerably faste.
 - Users on Firefox may not experience the date and time picker on the form as expected. The icon does not appear on Firefox but does on Chrome. The overall experience is not changed and users can still fill the form as expected. 
 - The shop is not open on Sunday, but the "Book a fitting" button allows users to pick Sundays on the date picker. Because of the accessibilityof the built in datepicker, this was not changed. A Javascript will be incorperated in a later upload to correct for this. 
-- The mobile carousel in the gallery adds extra padding on the right on load in the inspect module of Chrome. The cause of issue still unknown. The padding disappears after one picture movement and the issue can not be recreated on a mobile device. 
+- The mobile carousel in the gallery added extra padding on the right on load in the inspect module of Chrome. The cause of issue was the "no-gutters" rule which was fixed on discovery. 
 
 ### SCALABILITY
 
