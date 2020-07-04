@@ -46,30 +46,7 @@
     font-family: "Chivo", sans-serif;
 }
 
-/* gird testing colours */
-.bg-1 {
-    background-color: red;
-}
-
-.bg-2 {
-    background-color: green;
-}
-
-.bg-3 {
-    background-color: blue;
-}
-
-.bg-4 {
-    background-color: yellow;
-}
-
-/* end testing colours */
-
-
-
 /*---------------------- Header/Navigation */
-
-
 
 /*--- logo ---*/
 .logo img {
@@ -456,6 +433,19 @@ input[type=number] {
     color: #ff5700;
     padding-right: 18px;
     text-shadow: 2px 2px 4px #ff5700;
+}
+
+/* over-riding MDB CSS class for navbar*/
+.navbar {
+    box-shadow: none;
+}
+
+.nav-link {
+    font-family: "Chivo", sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #f5f2d0;
+    text-transform: uppercase;
 }
 
 
