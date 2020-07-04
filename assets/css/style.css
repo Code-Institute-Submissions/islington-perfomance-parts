@@ -98,24 +98,26 @@
   color: #f5f2d0;
 }
 
- ul li a .icon .fa {
+/*- navigation links fontawesome fonts -*/
+  .icon .fa {
   font-size: 22px;
 }
 
- ul li a .icon .fab {
+ .icon .fab {
   font-size: 22px;
 }
 
- ul li a .icon .far {
+  .icon .far {
   font-size: 22px;
 }
 
- ul li a .icon .fas {
+  .icon .fas {
   font-size: 22px;
 }
 
 /*---------------------- Toggler */
 
+/*- removes the lingering button shadow after pushing -*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -133,6 +135,7 @@
 
 /*---------------------- Main Content */
 
+/*- all the introductory text in just below the header -*/
 .home-p {
     font-family: "Chivo", sans-serif;
     color: #36454f;
@@ -169,6 +172,7 @@
     text-shadow: 0px 3px 0px rgba(0,0,0,.5);
 }
 
+/*- adding a two column list for opening hours -*/
 .two-cols {
     columns: 2;
   -webkit-columns: 2;
@@ -244,12 +248,12 @@
 /*--- Google Maps ---*/
 
 .map {
-        height: 200px;  
-        width: 100%;
-        margin-bottom: 14px;
-        margin-top: 4px;
-        border: 2px solid rgba(0, 0, 0, 0.2);
-       }
+     height: 200px;  
+     width: 100%;
+     margin-bottom: 14px;
+     margin-top: 4px;
+     border: 2px solid rgba(0, 0, 0, 0.2);
+}
 
 .map-header-custom {
     text-align: center;
@@ -326,11 +330,11 @@
     background-color: rgb(233,236,239);
 }
 
+/*- applies to the text within the progress bars - null for the gray area -*/
 .null-text,
 .text-info {
     font-family: "Chivo", sans-serif;
-    color: #36454f;
-      
+    color: #36454f;     
 }
 
 .progress {
@@ -363,11 +367,13 @@
     width: 33%;
 }
 
+/*- CVV help icon -*/
 .questionmark {
     font-size: 14px;
     margin-left: 20px;
 }
 
+/*- removes spinner icons from number inputs - not currently used, but maybe at a later stage -*/
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -399,6 +405,7 @@ input[type=number] {
 
 /*----------------------- Gallery */
 
+/*- previous and next buttons on carousel - desktop only -*/
 .chevron {
     font-size: 48px;
     color: purple;
@@ -410,6 +417,7 @@ input[type=number] {
     padding-bottom: 44px;
 }
 
+/*- f = facbook, T = twitter, YT = youtube and R = reddit --- affects only the modal icons -*/
 .icons-gallery-f i {
     color: #3B5998;
     padding-left: 18px;
@@ -435,22 +443,9 @@ input[type=number] {
     text-shadow: 2px 2px 4px #ff5700;
 }
 
-/* over-riding MDB CSS class for navbar
-.navbar {
-    box-shadow: none;
-}
-
-.nav-link {
-    font-family: "Chivo", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: #f5f2d0;
-    text-transform: uppercase;
-}*/
-
-
 /*----------------------- Sign-up */
 
+/*- highlights the 10% discount sign in text -*/
 .standout {
     color: red;
     font-family: "Permanent Marker", sans-serif;
@@ -488,12 +483,14 @@ footer p {
     text-align: left;
 }
 
+/*- removes underline from hyperlinks -*/
 .details a {
     padding: 0%;
     text-decoration: none;
     color: #fff;
 }
 
+/*- highlights email and copyright links */
 .details a:hover {
     color: blueviolet;
 }
@@ -530,7 +527,7 @@ footer p {
   color: #ff5700;
 }
 
- 
+/*- indenting text in footer to line up with text above responsively */
 .no-disp {
     margin-left: 37px;      
 }
