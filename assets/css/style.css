@@ -1,6 +1,17 @@
 /*---------------------- Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Faster+One&display=swap&family=Exo+2&display=swap&family=Permanent+Marker&display=swap');
 
+/*- removes white-space on load on some devices - no effect for most -*/
+
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
 /*---------------------- Colours */
 .bg-custom {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
