@@ -435,18 +435,18 @@ input[type=number] {
     text-shadow: 2px 2px 4px #ff5700;
 }
 
-/* over-riding MDB CSS class for navbar*/
+/* over-riding MDB CSS class for navbar
 .navbar {
     box-shadow: none;
 }
 
 .nav-link {
-    font-family: "Chivo", sans-serif !important;
-    font-size: 12px !important;
-    font-weight: 400 !important;
+    font-family: "Chivo", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     color: #f5f2d0;
     text-transform: uppercase;
-}
+}*/
 
 
 /*----------------------- Sign-up */
