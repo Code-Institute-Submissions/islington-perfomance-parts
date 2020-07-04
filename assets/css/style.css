@@ -433,6 +433,32 @@ input[type=number] {
     padding-bottom: 44px;
 }
 
+.icons-gallery-f i {
+    color: #3B5998;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-shadow: 2px 2px 4px #3b5998;
+}
+
+.icons-gallery-T i {
+    color: #55ACEE;
+    padding-right: 18px;
+    text-shadow: 2px 2px 4px #55acee;
+}
+
+.icons-gallery-YT i {
+    color: #bb0000;
+    padding-right: 18px;
+    text-shadow: 2px 2px 4px #bb0000;
+}
+
+.icons-gallery-R i {
+    color: #ff5700;
+    padding-right: 18px;
+    text-shadow: 2px 2px 4px #ff5700;
+}
+
+
 /*----------------------- Sign-up */
 
 .standout {
@@ -499,15 +525,15 @@ footer p {
 }
 
 .fa-facebook:hover {
-  color: #3B5998;
+  color: #3b5998;
 }
 
 .fa-twitter:hover {
-  color: #55ACEE;
+  color: #55acee;
   }
 
 .fa-youtube:hover {
-  color: #bb0000;;
+  color: #bb0000;
 }
 
 .fa-reddit:hover {
