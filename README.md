@@ -143,12 +143,13 @@ It is also advised that the site uses analytic monitoring to help increase custo
 -   [Font Awesome](https://fontawesome.com): used for all icons throughout the site
 -   [Google Maps](https://www.google.com/maps/): used for custom map on homepage
 -   [Google Fonts](https://fonts.google.com/): Faster One, Chivo, Exo 2 and Permanent Marker
--   Gimp 2.10.14: For creation and editing of the logo
+-   [Gimp](https://www.gimp.org/) 2.10.14: For creation and editing of the logo
 -   Windows Paint 3d: To resize images appropriately
 -   [W3C Validator](https://validator.w3.org/) used to validate HTML code
 -   [W3C Validator CSS](https://jigsaw.w3.org/css-validator/validator)
 -   The "buy now" form was partially templated [from](https://tutorialzine.com/2016/11/simple-credit-card-validation-form) (multiple modifications were used)
--   Colour gradients were coded [here](https://www.colorzilla.com/gradient-editor/)
+-   Colour gradients were coded [here at colorzilla](https://www.colorzilla.com/gradient-editor/)
+-   Images were compressed [here at tinypng](https://tinypng.com/)
 
 ## MEDIA
 
@@ -158,6 +159,4 @@ It is also advised that the site uses analytic monitoring to help increase custo
 
 ## ACKNOWLEDGMENTS
 
--   
--   
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) and [Anthony O' Brien](https://github.com/auxfuse) for their invaluable help and feedback and to the Code Institute slack community for their constant support.
