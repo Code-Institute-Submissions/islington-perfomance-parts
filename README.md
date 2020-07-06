@@ -182,6 +182,7 @@ It is also advised that the site uses analytic monitoring to help increase custo
 -   The "buy now" form was partially templated [from tutorialzine.com](https://tutorialzine.com/2016/11/simple-credit-card-validation-form) (multiple modifications were used)
 -   Colour gradients (header and footer) were coded [here at colorzilla](https://www.colorzilla.com/gradient-editor/)
 -   Images were compressed [here at tinypng](https://tinypng.com/)
+-   404 page idea from template at [bootsnipp.com](https://bootsnipp.com/snippets/Qb71)
 
 ## MEDIA
 
