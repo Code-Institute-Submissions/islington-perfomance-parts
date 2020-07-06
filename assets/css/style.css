@@ -526,4 +526,27 @@ footer p {
     margin-left: 37px;      
 }
 
+/*---------------------- 404 error page */
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.error-actions .btn { 
+    margin-right:10px; 
+}
+
+.stop-img {
+    width: 400px;
+    height: auto;
+}
+
+
+
 
