@@ -71,8 +71,6 @@ These goals are accomplished by various methods:
 - A [gallery page](https://pauld0051.github.io/islington-perfomance-parts/gallery.html) showcases the latest trends and styles of vehicles fitted with new wheels by IPP
 - The [sign-up page](https://pauld0051.github.io/islington-perfomance-parts/sign-up.html) gives users a reason to return to the shop time and again
 
-
-
 ### Responsive design
 
 Customers who visit the page can do so on any device, desktop, tablet, mobile etc.
@@ -108,7 +106,6 @@ Form testing was carried out on all forms, including Book a Fitting forms (every
 
 The only known issues are with the "Buy Now" forms as no backend is currently available. The CCV help would have also been a "pop-over" however, there is a Javascript requirement preventing this from working as anticipated. 
 
-
 ***
 
 ### Issues and bugs
@@ -123,9 +120,31 @@ The only known issues are with the "Buy Now" forms as no backend is currently av
 
 ### Load speeds
 
-The site will mostly be accessed from Sweden, however, the site was built to be accessed internationally. With this in mind, images in carousels had the potential to slow the loading speeds. Therefore, to lower the size of all images, tinypng was used. No noticable image deterioration was noticable.
+The site will mostly be accessed from Sweden, however, the site was built to be accessed internationally. With this in mind, images in carousels had the potential to slow the loading speeds. Therefore, to lower the size of all images, tinypng was used. No image deterioration was detectable.
 
 To test speeds, pingdom was used with the following results:
+
+#### Frankfurt Servers (Home, Shop, Gallery and Sign-up)
+Fig 1. Results of the Frankfurt (closest) server test for the home page:
+![alt text](https://raw.githubusercontent.com/pauld0051/islington-perfomance-parts/master/assets/images/home-pingdom.jpg "results of pingdom test for home - Frankfurt servers")
+
+Fig 2. Results of the Frankfurt (closest) server test for the shop page:
+![alt text](https://raw.githubusercontent.com/pauld0051/islington-perfomance-parts/master/assets/images/shop-pingdom.jpg "results of pingdom test for shop - Frankfurt servers")
+
+Fig 3. Results of the Frankfurt (closest) server test for the gallery page:
+![alt text](https://raw.githubusercontent.com/pauld0051/islington-perfomance-parts/master/assets/images/gallery-pingdom.jpg "results of pingdom test for home - Frankfurt servers")
+
+Fig 4. Results of the Frankfurt (closest) server test for the sign-up page:
+![alt text](https://raw.githubusercontent.com/pauld0051/islington-perfomance-parts/master/assets/images/sign-up-pingdom.jpg "results of pingdom test for shop - Frankfurt servers")
+
+The results, although extremely positive, do show that embedded objects (for example, Google Maps) can have a significant effect on the speed of loading. For the most users will not notice or be inconvenienced by the small improvements in using Google APIs or removing the map all together. 
+
+Images (for example, the 18 images in the gallery) have all been compressed to increase speed. Images, however, will still slow any browser load. It is up to the IPP to choose the importance of showing their work with a small trade-off of slower load speeds. It is anticipated that the carousels will never be extended beyond 18 images. 
+
+During the development stage, all code was checked on the latest versions of Chrome, Firefox and Android (Chrome) on a Huawei P20 Pro simultaneously. The use of Bootstrap and similar frameworks was to ensure that most modern browser support was available. However, due to the use of Bootstrap frameworks some older browsers will not support the current site format. Microsoft Edge was also tested in the post production stage, with no noticable differences for the user. Opera browsers are not supported.
+
+Fig 5. Selected results from 25 browser/operating system tests from browserstack.com:
+![alt text](https://raw.githubusercontent.com/pauld0051/islington-perfomance-parts/master/assets/images/browserstack.jpg "results of browserstack tests for various combination of browsers and operating systems")
 
 ***
 
@@ -133,7 +152,7 @@ To test speeds, pingdom was used with the following results:
 
 For the most, the shop itself can easily increase the number of wheels that are available and a carousel could be introduced for this. When the shop expands, a menu on the left hand side of the shop will allow for other product types (eg, tyres, hoses, clamps etc).
 When backend is incorperated, the shop will then be fully extended to data-fetch for all products that are for sale. Prices will then also be included and changes can easily be made in the database. 
-A control management system (CMS) should be implemented so as new products come into the shop, employees (even with little experience) can add the product, and images, directly to the website with no need to involve a web-design team.
+A control management system (CMS) should be implemented so as new products come into the shop, employees (even with little experience) can add the product, and images, directly to the website with no need to involve a web-design team. This would also allow employees to add new pictures to the carousels on the home and gallery pages. 
 
 It is also advised that the site uses analytic monitoring to help increase customer base. 
  
