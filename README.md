@@ -109,20 +109,32 @@ Form testing was carried out on all forms, including Book a Fitting forms (every
 The only known issues are with the "Buy Now" forms as no backend is currently available. The CCV help would have also been a "pop-over" however, there is a Javascript requirement preventing this from working as anticipated. 
 
 
+***
 
+### Issues and bugs
 
-### Issues and Bugs
-
-- The map was originally used using an API from Google Maps. However a cost was associated with this technique, instead the map was embedded directly from Google Maps itself. No API or Javascript was required this way and the site loaded considerably faste.
+- The map was originally used using an API from Google Maps. However a cost was associated with this technique, instead the map was embedded directly from Google Maps itself. No API or Javascript was required this way and the site loaded considerably faster.
 - Users on Firefox may not experience the date and time picker on the form as expected. The icon does not appear on Firefox but does on Chrome. The overall experience is not changed and users can still fill the form as expected. 
-- The shop is not open on Sunday, but the "Book a fitting" button allows users to pick Sundays on the date picker. Because of the accessibilityof the built in datepicker, this was not changed. A Javascript will be incorperated in a later upload to correct for this. 
+- The shop is not open on Sunday, but the "Book a fitting" button allows users to pick Sundays on the date picker. Because of the user accessibility of the built-in datepicker, this was not changed. A Javascript will be incorperated in a later upload to correct for this. 
 - The mobile carousel in the gallery added extra padding on the right on load in the inspect module of Chrome. The cause of issue was the "no-gutters" rule which was fixed on discovery. 
 - Noted that limiting numbers on the forms needed to be done with the "pattern" attribute with a text input type. Max or minlength do not work for number input types.
-- Did not require the MDB CDN for the lightbox carousel as it caused conflicts between the natural Bootstrap and MDB.  
+- Did not require the MDB CDN for the lightbox carousel as it caused conflicts between the natural Bootstrap and MDB. 
+- Chrome "inspect" lead to an unexpected padding in the body on very specific circumstances. To remove this, an overflow-x: hidden command was added to the body of all pages.  
+
+### Load speeds
+
+The site will mostly be accessed from Sweden, however, the site was built to be accessed internationally. With this in mind, images in carousels had the potential to slow the loading speeds. Therefore, to lower the size of all images, tinypng was used. No noticable image deterioration was noticable.
+
+To test speeds, pingdom was used with the following results:
+
+***
 
 ### SCALABILITY
 
-For the most, the shop itself can easily increase the number of wheels that are available and a carousel could be introduced for this. When the shop expands a menu on the left hand side of the shop will allow for other product types (eg, tyres, hoses, clamps etc).
+For the most, the shop itself can easily increase the number of wheels that are available and a carousel could be introduced for this. When the shop expands, a menu on the left hand side of the shop will allow for other product types (eg, tyres, hoses, clamps etc).
+When backend is incorperated, the shop will then be fully extended to data-fetch for all products that are for sale. Prices will then also be included and changes can easily be made in the database. 
+A control management system (CMS) should be implemented so as new products come into the shop, employees (even with little experience) can add the product, and images, directly to the website with no need to involve a web-design team.
+
 It is also advised that the site uses analytic monitoring to help increase customer base. 
  
 
@@ -144,12 +156,12 @@ It is also advised that the site uses analytic monitoring to help increase custo
 -   [Font Awesome](https://fontawesome.com): used for all icons throughout the site
 -   [Google Maps](https://www.google.com/maps/): used for custom map on homepage
 -   [Google Fonts](https://fonts.google.com/): Faster One, Chivo, Exo 2 and Permanent Marker
--   [Gimp](https://www.gimp.org/) 2.10.14: For creation and editing of the logo
--   Windows Paint 3d: To resize images appropriately
+-   [Gimp](https://www.gimp.org/) 2.10.14: For creation and editing of the logo and adding transparency to wheel images
+-   Windows Paint 3d: To resize images appropriately for container sizes and responsive behaviours
 -   [W3C Validator](https://validator.w3.org/) used to validate HTML code
 -   [W3C Validator CSS](https://jigsaw.w3.org/css-validator/validator)
--   The "buy now" form was partially templated [from](https://tutorialzine.com/2016/11/simple-credit-card-validation-form) (multiple modifications were used)
--   Colour gradients were coded [here at colorzilla](https://www.colorzilla.com/gradient-editor/)
+-   The "buy now" form was partially templated [from tutorialzine.com](https://tutorialzine.com/2016/11/simple-credit-card-validation-form) (multiple modifications were used)
+-   Colour gradients (header and footer) were coded [here at colorzilla](https://www.colorzilla.com/gradient-editor/)
 -   Images were compressed [here at tinypng](https://tinypng.com/)
 
 ## MEDIA
