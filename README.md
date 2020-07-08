@@ -116,7 +116,8 @@ The only known issues are with the "Buy Now" forms as no backend is currently av
 - The mobile carousel in the gallery added extra padding on the right on load in the inspect module of Chrome. The cause of issue was the "no-gutters" rule which was fixed on discovery. 
 - Noted that limiting numbers on the forms needed to be done with the "pattern" attribute with a text input type. Max or minlength do not work for number input types.
 - Did not require the MDB CDN for the lightbox carousel as it caused conflicts between the natural Bootstrap and MDB. 
-- Chrome "inspect" lead to an unexpected padding in the body on very specific circumstances. To remove this, an overflow-x: hidden command was added to the body of all pages.  
+- Discovered on Chrome "inspect" an unexpected padding in the body on very specific circumstances possibly ddue to a Bootstrap module. To remove this, an overflow-x: hidden command was added to the body of all pages.  
+- Bootstrap modals adds 17px to padding-right causing "screen jump". To remove this a CSS class for body was created with padding-right: 0 !impotant;
 
 ### Load speeds
 
